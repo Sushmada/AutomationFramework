@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[SkillRary Courses]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="622637" started-at="2021-09-05T15:19:30 IST" finished-at="2021-09-05T15:29:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="622637" started-at="2021-09-05T15:19:30 IST" finished-at="2021-09-05T15:29:53 IST">
+      <class name="scripts.Addtocart">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:scripts.Addtocart@2173f6d9]" name="openApp" is-config="true" duration-ms="12199" started-at="2021-09-05T15:19:30 IST" finished-at="2021-09-05T15:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:scripts.Addtocart@2173f6d9]" name="tc1" duration-ms="608800" started-at="2021-09-05T15:19:43 IST" finished-at="2021-09-05T15:29:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[SkillRary Courses]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Addtocart@2173f6d9]" name="closeApp" is-config="true" duration-ms="1495" started-at="2021-09-05T15:29:51 IST" finished-at="2021-09-05T15:29:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=Addtocart.tc1()[pri:0, instance:scripts.Addtocart@2173f6d9] output=SkillRary Courses]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.Addtocart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
